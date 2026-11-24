@@ -1,0 +1,137 @@
+{
+  "village": {
+    "id": "haripuram",
+    "name": "Haripuram",
+    "telugu": "హరిపురం",
+    "subtitle": "A small village that remembers.",
+    "greeting": "Tap a place on the map."
+  },
+  "locations": [
+    {
+      "id": "pandu-house",
+      "name": "Pandu House",
+      "telugu": "పండు ఇల్లు",
+      "kind": "Home",
+      "accent": "#c45c3e",
+      "time": "Dawn and dusk",
+      "scent": "Turmeric, drying mango, woodsmoke",
+      "summary": "The courtyard where the family gathers, mangoes dry on the roof, and stories start before they travel anywhere else.",
+      "description": "Pandu House sits a little off the main path, behind a neem and a well-worn threshold. The tiled roof holds the day's heat. In the courtyard, a grinding stone still carries the smell of chilli and turmeric. Children run through the verandah; elders sit on the stone bench and watch the lane. This is where Haripuram begins for the family — not as a map, but as a door that is never quite shut.",
+      "see": ["Red-tiled roof", "Courtyard tulasi", "Mangoes on a straw mat", "A blue-painted window"],
+      "hear": ["Pressure cooker whistle", "Crows on the neem", "Someone calling from the lane"],
+      "words": [
+        { "te": "ఇల్లు", "en": "house" },
+        { "te": "ప్రాంగణం", "en": "courtyard" },
+        { "te": "వాకిలి", "en": "threshold" }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "School",
+      "telugu": "బడి",
+      "kind": "Learning",
+      "accent": "#d4a017",
+      "time": "Morning bell",
+      "scent": "Chalk, dust, tamarind from the tiffin boxes",
+      "summary": "A single-storey school with a neem-shaded ground, where Telugu, sums, and songs share the same blackboard.",
+      "description": "The school stands near the lane that turns toward the fields. Its walls are the colour of old sunlight. A flagpole, a well, and a row of bicycles. Inside, benches scrape, and the teacher writes in a tall, careful hand. After assembly, the ground fills with running feet. In the afternoon the same ground is quiet, except for a stray dog sleeping under the neem.",
+      "see": ["Blackboard with Telugu letters", "Neem shade", "A rusted bell", "Slates stacked by the wall"],
+      "hear": ["Morning prayer", "The bell", "Children counting aloud"],
+      "words": [
+        { "te": "బడి", "en": "school" },
+        { "te": "గురువు", "en": "teacher" },
+        { "te": "పాఠం", "en": "lesson" }
+      ]
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "telugu": "గ్రంథాలయం",
+      "kind": "Quiet",
+      "accent": "#6b4c7a",
+      "time": "After school, before dusk",
+      "scent": "Old paper, sandal, closed windows",
+      "summary": "A small room of books, newspapers, and a ceiling fan that clicks on the same beat every summer.",
+      "description": "The library is not large. It does not need to be. Wooden shelves hold school readers, Telugu novels, a few English storybooks, and last week's newspaper folded to the cinema page. A librarian stamps dates as if time itself were being borrowed. Light comes in through a high window and lands on dust that never quite settles. People speak softly here, even the ones who never do anywhere else.",
+      "see": ["Stamped due dates", "A globe that still shows old borders", "Steel almirahs", "A visitor's register"],
+      "hear": ["Fan clicking", "Pages turning", "A stamp on paper"],
+      "words": [
+        { "te": "పుస్తకం", "en": "book" },
+        { "te": "చదువు", "en": "to read" },
+        { "te": "కథ", "en": "story" }
+      ]
+    },
+    {
+      "id": "temple",
+      "name": "Temple",
+      "telugu": "గుడి",
+      "kind": "Sacred",
+      "accent": "#b33b2b",
+      "time": "Bells at dawn and evening aarti",
+      "scent": "Camphor, jasmine, ghee lamps",
+      "summary": "The village gudi, whitewashed and turmeric-marked, where festivals begin and ordinary days pause.",
+      "description": "The temple sits slightly higher than the lane, as if the ground itself made room. A small gopuram, a stone mandapam, and a tulasi in a square brick stand. Devotees leave their slippers in a crooked row. On festival days the whole village seems to lean toward this door. On ordinary days an old woman sits on the steps with a flower basket, and the bells still find everyone, even those who did not mean to listen.",
+      "see": ["Kumkum on the doorframe", "Oil lamps", "Garlands", "Bare feet on cool stone"],
+      "hear": ["Temple bell", "Conch", "Someone humming a keerthana"],
+      "words": [
+        { "te": "గుడి", "en": "temple" },
+        { "te": "దీపం", "en": "lamp" },
+        { "te": "పూజ", "en": "worship" }
+      ]
+    },
+    {
+      "id": "banyan-tree",
+      "name": "Banyan Tree",
+      "telugu": "మర్రి చెట్టు",
+      "kind": "Gathering",
+      "accent": "#3f6b46",
+      "time": "Noon shade, night gossip",
+      "scent": "Leaf-dust, tea from the stall, warm earth",
+      "summary": "The oldest meeting place in Haripuram — roots like pillars, shade like a hall, news that travels without paper.",
+      "description": "The banyan is older than anyone who argues beneath it. Aerial roots hang like curtains. In the heat, the whole village seems to move under this one tree: a tea stall, a game of carrom on a crate, a barber's chair, a dispute that will be settled before sunset. Children treat the roots as a jungle gym. Elders treat the shade as a courthouse. At night, the leaves sound like rain even when the sky is clear.",
+      "see": ["Hanging roots", "A stone platform", "Crows' nests", "Names carved long ago"],
+      "hear": ["Leaves", "Tea tumblers", "Laughter that carries to the fields"],
+      "words": [
+        { "te": "మర్రి", "en": "banyan" },
+        { "te": "నీడ", "en": "shade" },
+        { "te": "సమావేశం", "en": "gathering" }
+      ]
+    },
+    {
+      "id": "cheruvu",
+      "name": "Cheruvu",
+      "telugu": "చెరువు",
+      "kind": "Water",
+      "accent": "#2f7a7a",
+      "time": "Lotus mornings, kingfisher afternoons",
+      "scent": "Wet clay, lotus, fish from the far bank",
+      "summary": "The village tank — bund, lilies, and the sky lying down for a while.",
+      "description": "The cheruvu holds the village's weather. After rain it is generous; in late summer it shrinks and shows its cracked edges. Cattle come down the bund in a slow line. Women wash clothes on flat stones. Boys skip school to swim where the water is still deep. At dusk the surface turns the colour of copper, and egrets stand as if they were planted there. People say if you listen long enough, the cheruvu tells you whether the fields will drink this year.",
+      "see": ["Lotus pads", "A bund path", "Cattle in the shallows", "The school reflected, then broken"],
+      "hear": ["Frogs after rain", "Slap of wet cloth", "A kingfisher's dive"],
+      "words": [
+        { "te": "చెరువు", "en": "tank / lake" },
+        { "te": "నీరు", "en": "water" },
+        { "te": "కమలం", "en": "lotus" }
+      ]
+    },
+    {
+      "id": "fields",
+      "name": "Fields",
+      "telugu": "పొలాలు",
+      "kind": "Work",
+      "accent": "#7a9b3e",
+      "time": "Sowing, weeding, harvest",
+      "scent": "Wet paddy, straw, diesel from a distant pump",
+      "summary": "Paddy, groundnut, and the long walk between bunds — the work that feeds every other place on the map.",
+      "description": "Beyond the last house the land opens. Bunds make green rooms of water. In season the paddy moves like one animal when the wind passes. People know these plots by family names, not by numbers. A scarecrow wears a faded shirt from Pandu House. At harvest the fields sound like a festival; in the lean months they are a quiet geometry of brown. From here the temple looks small, and the cheruvu looks like a coin.",
+      "see": ["Paddy in standing water", "A pump house", "Egrets behind the plough", "Straw stacks"],
+      "hear": ["Frogs in the bunds", "A radio from the pump house", "Sickles in straw"],
+      "words": [
+        { "te": "పొలం", "en": "field" },
+        { "te": "వరి", "en": "paddy" },
+        { "te": "కోత", "en": "harvest" }
+      ]
+    }
+  ]
+}

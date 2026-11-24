@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="te">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1d6fa5" />
+    <meta name="description" content="హరిపురం — దేశ్య, సాహిత్య, సంస్కృత తెలుగు లోకం." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="హరిపురం" />
+    <title>హరిపురం</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="assets/icons/house.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/icons/house.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="phone-shell">
+      <header class="masthead">
+        <div class="brand">
+          <h1 lang="te">హరిపురం</h1>
+          <p class="brand-sub" lang="te">తెలుగు జ్ఞాన లోకం</p>
+        </div>
+        <button class="audio-toggle" id="audio-toggle" type="button" aria-pressed="false">
+          ధ్వని: ఆఫ్
+        </button>
+      </header>
+
+      <main class="views">
+        <!-- 1. FULLSCREEN VILLAGE MAP VIEW -->
+        <section class="view is-active" id="view-map" aria-label="ఊరి పటం">
+          <div class="map-viewport" id="map-viewport">
+            <div class="world" id="world">
+              <img
+                class="scene-map"
+                src="assets/images/map.webp"
+                alt="హరిపురం ఊరి పటం"
+                draggable="false"
+              />
+              <nav class="hotspots" aria-label="ఊరి చోట్లు">
+                <button class="place" data-id="school" data-x="22" data-y="24" style="left: 22%; top: 24%;">
+                  <img class="glyph-icon" src="assets/icons/school.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">బడి</span>
+                </button>
+                <button class="place" data-id="library" data-x="39" data-y="22" style="left: 39%; top: 22%;">
+                  <img class="glyph-icon" src="assets/icons/library.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">గ్రంథాలయం</span>
+                </button>
+                <button class="place" data-id="temple" data-x="69" data-y="23" style="left: 69%; top: 23%;">
+                  <img class="glyph-icon" src="assets/icons/temple.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">గుడి</span>
+                </button>
+                <button class="place" data-id="banyan-tree" data-x="47" data-y="47" style="left: 47%; top: 47%;">
+                  <img class="glyph-icon" src="assets/icons/tree.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">మర్రి చెట్టు</span>
+                </button>
+                <button class="place" data-id="pandu-house" data-x="22" data-y="70" style="left: 22%; top: 70%;">
+                  <img class="glyph-icon" src="assets/icons/house.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">పండు ఇల్లు</span>
+                </button>
+                <button class="place" data-id="cheruvu" data-x="82" data-y="52" style="left: 82%; top: 52%;">
+                  <img class="glyph-icon" src="assets/icons/lake.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">చెరువు</span>
+                </button>
+                <button class="place" data-id="fields" data-x="82" data-y="82" style="left: 82%; top: 82%;">
+                  <img class="glyph-icon" src="assets/icons/field.svg" alt="" aria-hidden="true" />
+                  <span class="place-label" lang="te">పొలాలు</span>
+                </button>
+              </nav>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. STORIES VIEW -->
+        <section class="view" id="view-stories" aria-label="కథలు" hidden>
+          <div class="toolbar">
+            <div class="pill-row" id="story-filters"></div>
+          </div>
+          <div class="card-list" id="story-list"></div>
+        </section>
+
+        <!-- 3. WORD GENEALOGY VIEW -->
+        <section class="view" id="view-words" aria-label="పదకోశం" hidden>
+          <div class="toolbar">
+            <input
+              class="search-input"
+              id="word-search"
+              type="search"
+              placeholder="పదం వెతకండి (తెలుగు / English)..."
+              aria-label="పదం వెతకండి"
+            />
+            <div class="pill-row" id="word-layer-filters">
+              <button class="pill is-active" data-layer="all" type="button">అన్నీ</button>
+              <button class="pill" data-layer="native" type="button">దేశ్య తెలుగు</button>
+              <button class="pill" data-layer="literary" type="button">సాహిత్య తెలుగు</button>
+              <button class="pill" data-layer="sanskrit" type="button">సంస్కృత తెలుగు</button>
+            </div>
+          </div>
+          <div class="card-list" id="word-list"></div>
+        </section>
+
+        <!-- 4. JOLLY PRACTICE VIEW (2 CHANCES) -->
+        <section class="view" id="view-quiz" aria-label="అభ్యాసం" hidden>
+          <div class="toolbar">
+            <div class="pill-row" id="quiz-modes">
+              <button class="pill is-active" data-mode="sanskrit" type="button">దేశ్యం ↔ సంస్కృతం</button>
+              <button class="pill" data-mode="literary" type="button">దేశ్యం ↔ సాహిత్యం</button>
+              <button class="pill" data-mode="meaning" type="button">పద కుటుంబం</button>
+              <button class="pill" data-mode="festival" type="button">పండుగలు</button>
+            </div>
+          </div>
+          <div class="quiz-box" id="quiz-box"></div>
+        </section>
+
+        <!-- 5. FAMILY TREE, PEOPLE, FESTIVALS & SEASONS VIEW -->
+        <section class="view" id="view-culture" aria-label="కుటుంబం మరియు పండుగలు" hidden>
+          <div class="toolbar">
+            <div class="pill-row" id="culture-tabs">
+              <button class="pill is-active" data-sub="family" type="button">కుటుంబ వృక్షం</button>
+              <button class="pill" data-sub="festivals" type="button">పండుగలు</button>
+              <button class="pill" data-sub="seasons" type="button">కాలాలు</button>
+              <button class="pill" data-sub="people" type="button">ఊరి మనుషులు</button>
+            </div>
+          </div>
+          <div class="card-list" id="culture-list"></div>
+        </section>
+      </main>
+
+      <!-- TRANSPARENT FLOATING HOVER-RISE BOTTOM DOCK -->
+      <nav class="bottom-nav" aria-label="ప్రధాన విభాగాలు">
+        <button class="nav-btn is-active" data-tab="map" type="button">
+          <span class="nav-ico">🗺️</span>
+          <span>ఊరు</span>
+        </button>
+        <button class="nav-btn" data-tab="stories" type="button">
+          <span class="nav-ico">📖</span>
+          <span>కథలు</span>
+        </button>
+        <button class="nav-btn" data-tab="words" type="button">
+          <span class="nav-ico">🌿</span>
+          <span>పదకోశం</span>
+        </button>
+        <button class="nav-btn" data-tab="quiz" type="button">
+          <span class="nav-ico">🪔</span>
+          <span>అభ్యాసం</span>
+        </button>
+        <button class="nav-btn" data-tab="culture" type="button">
+          <span class="nav-ico">🏡</span>
+          <span>కుటుంబం</span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="scrim" id="scrim" hidden></div>
+
+    <!-- PLACE DETAIL BOTTOM SHEET -->
+    <aside class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" hidden>
+      <div class="panel-handle" aria-hidden="true"></div>
+      <header class="panel-head">
+        <p class="panel-kicker" id="panel-kicker"></p>
+        <h2 id="panel-title" lang="te"></h2>
+        <button class="close" id="close-panel" type="button">మూసివేయి</button>
+      </header>
+      <div class="panel-body" id="panel-body"></div>
+    </aside>
+
+    <!-- TAP-TO-REVEAL WORD GENEALOGY POPUP -->
+    <div class="word-modal" id="word-modal" role="dialog" aria-modal="true" hidden>
+      <div class="word-modal-card">
+        <button class="close small" id="close-word-modal" type="button">✕</button>
+        <p class="word-modal-layer" id="wm-layer"></p>
+        <h3 class="word-modal-word" id="wm-word" lang="te"></h3>
+        <div class="word-modal-equivs" id="wm-equivs"></div>
+        <p class="word-modal-ex" id="wm-ex" lang="te"></p>
+        <div class="word-modal-actions">
+          <button class="reveal-btn" id="wm-reveal-btn" type="button">అర్థం చూడు</button>
+          <p class="word-modal-meaning" id="wm-meaning" hidden></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

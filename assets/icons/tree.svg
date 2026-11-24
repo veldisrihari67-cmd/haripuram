@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="29" fill="#f3f8f3" stroke="#b7ceb9" stroke-width="1.5"/>
+  <!-- Lush layered banyan canopy -->
+  <path d="M13 33c-3 0-5-3-4-7 1-4 4-6 8-5 2-6 8-9 15-9s13 3 15 9c4-1 7 1 8 5 1 4-1 7-4 7H13z" fill="#4f7e56" stroke="#3b2d23" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M19 25c2-4 7-7 13-7s11 3 13 7" fill="none" stroke="#76a374" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Gnarled trunk -->
+  <path d="M28 45c1-5 1-10 0-14h8c-1 4-1 9 0 14z" fill="#7d5d43" stroke="#3b2d23" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Hanging aerial roots -->
+  <path d="M18 33v11M22 33v10M42 33v10M46 33v11" stroke="#6c503a" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Circular stone platform -->
+  <rect x="15" y="45" width="34" height="5" rx="2" fill="#d4c7b4" stroke="#3b2d23" stroke-width="1.5"/>
+  <path d="M21 45v5M32 45v5M43 45v5" stroke="#9e8f7b" stroke-width="1"/>
+</svg>

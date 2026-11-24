@@ -1,0 +1,21 @@
+{
+  "name": "హరిపురం",
+  "short_name": "హరిపురం",
+  "description": "హరిపురం — సంపూర్ణ తెలుగు అభ్యసన గ్రామం.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3e6c8",
+  "theme_color": "#4f7a4e",
+  "lang": "te",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/icons/house.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

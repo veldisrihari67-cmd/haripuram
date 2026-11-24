@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="29" fill="#fdf4f2" stroke="#dfb9b2" stroke-width="1.5"/>
+  <!-- Kalasam -->
+  <path d="M32 9v4" stroke="#d49b2a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="11.5" r="1.5" fill="#e6b84d" stroke="#3b2d23" stroke-width="1"/>
+  <!-- Gopuram tiers with red-and-white stripes -->
+  <path d="M24 21l3-7h10l3 7z" fill="#f9f3ea" stroke="#3b2d23" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M29 14v7M32 14v7M35 14v7" stroke="#b33b2b" stroke-width="1.4"/>
+  <path d="M20 29l4-8h16l4 8z" fill="#f9f3ea" stroke="#3b2d23" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M26 21v8M30 21v8M34 21v8M38 21v8" stroke="#b33b2b" stroke-width="1.4"/>
+  <!-- Mandapam & pillars -->
+  <rect x="15" y="29" width="34" height="4" rx="1" fill="#e6d6c3" stroke="#3b2d23" stroke-width="1.4"/>
+  <rect x="17" y="33" width="30" height="15" fill="#f7efe4" stroke="#3b2d23" stroke-width="1.4"/>
+  <path d="M21 33v15M43 33v15" stroke="#c8b29b" stroke-width="2.5"/>
+  <!-- Sanctum doorway -->
+  <rect x="27" y="36" width="10" height="12" fill="#4a3228" stroke="#3b2d23" stroke-width="1.4"/>
+  <!-- Hanging bell -->
+  <path d="M32 33v3" stroke="#d49b2a" stroke-width="1.2"/>
+  <path d="M30 39h4l-0.7-3h-2.6z" fill="#e6b84d" stroke="#3b2d23" stroke-width="1"/>
+  <!-- Glowing brass deepam -->
+  <path d="M47 46h6l-1.5 3h-3z" fill="#d49b2a" stroke="#3b2d23" stroke-width="1.1"/>
+  <path d="M50 41c1.5 1.8 1.5 3.5 0 4.5-1.5-1-1.5-2.7 0-4.5z" fill="#f39c12" stroke="#b33b2b" stroke-width="0.9"/>
+  <!-- Base steps -->
+  <path d="M12 49h40" stroke="#8b735b" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

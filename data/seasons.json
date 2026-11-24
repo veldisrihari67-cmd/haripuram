@@ -1,0 +1,281 @@
+{
+    "village": "Haripuram",
+    "telugu": "హరిపురం",
+    "version": "1.0",
+    "count": 4,
+    "seasons": [
+      {
+        "id": "summer",
+        "name": "Summer",
+        "telugu": "వేసవి",
+        "teluguLiterary": "గ్రీష్మ ఋతువు",
+        "months": ["March", "April", "May", "June"],
+        "teluguMonths": ["ఫాల్గుణం", "చైత్రం", "వైశాఖం", "జ్యేష్ఠం"],
+        "weather": {
+          "description": "Hot, dry and bright. The sun is sharp by nine in the morning, the ground cracks, and hot winds blow across the fields in the afternoon. Nights remain warm. Dust rises from the lanes.",
+          "teluguDescription": "ఎండలు ఎక్కువగా ఉంటాయి. ఉదయం తొమ్మిదికే ఎండ చురుక్కుమంటుంది. నేల నెర్రెలు విచ్చుతుంది. మధ్యాహ్నం వేడి గాలులు వీస్తాయి. సందుల్లో దుమ్ము లేస్తుంది.",
+          "temperatureRange": "34-44 C",
+          "words": [
+            { "te": "ఎండ", "en": "sun / heat" },
+            { "te": "వడగాలి", "en": "hot wind" },
+            { "te": "వేడి", "en": "heat" },
+            { "te": "చెమట", "en": "sweat" },
+            { "te": "దుమ్ము", "en": "dust" },
+            { "te": "నెర్రెలు", "en": "cracks in dry soil" },
+            { "te": "పొడి", "en": "dry" },
+            { "te": "మిట్టమధ్యాహ్నం", "en": "high noon" }
+          ]
+        },
+        "farmWork": [
+          { "task": "Harvest of summer groundnut and sesame", "telugu": "వేసవి వేరుశనగ, నువ్వుల కోత" },
+          { "task": "Deep ploughing of dry fields to bury weeds and open the soil", "telugu": "ఎండ దున్నుడు" },
+          { "task": "Clearing silt from the cheruvu bed and strengthening the bund", "telugu": "చెరువు పూడిక తీత, కట్ట బలపరచడం" },
+          { "task": "Spreading farmyard manure before the rains", "telugu": "వర్షాలకు ముందు పశువుల ఎరువు వేయడం" },
+          { "task": "Repairing ploughs, yokes and pump motors", "telugu": "నాగళ్లు, కాడెలు, మోటార్ల మరమ్మతు" }
+        ],
+        "characterActivities": [
+          { "character": "narayana", "activity": "Sits in banyan shade at noon and tells old summer stories; walks to the cheruvu at dawn before the heat" },
+          { "character": "mahalakshamma", "activity": "Dries mango slices for pickles on the roof; makes vadiyalu and appadalu" },
+          { "character": "kamalamma", "activity": "Runs the mango pickle season: cutting, salting, sun-curing, jarring" },
+          { "character": "lakshmaiah", "activity": "Reports water levels in wells and advises farmers on summer crops" },
+          { "character": "ramesh", "activity": "Repairs pumps that fail in the heat" },
+          { "character": "ranganath", "activity": "Treats heatstroke, dehydration and stomach upsets" },
+          { "character": "srihari", "activity": "Holidays begin; he reads in the library and walks to the cheruvu in the evening" },
+          { "character": "anjali", "activity": "Climbs the neem for flowers and plays under the banyan" },
+          { "character": "kiran", "activity": "Hunts for mango and tamarind with friends" },
+          { "character": "lingam", "activity": "Digs clay from the shrinking cheruvu edge for pots" },
+          { "character": "kumari", "activity": "Sells watermelons, cucumbers and curd at the weekly market" },
+          { "character": "seetharam", "activity": "Stocks buttermilk, lemons and cold drinks" }
+        ],
+        "vocabulary": [
+          { "te": "మామిడి", "en": "mango" },
+          { "te": "ఆవకాయ", "en": "mango pickle" },
+          { "te": "మజ్జిగ", "en": "buttermilk" },
+          { "te": "పుచ్చకాయ", "en": "watermelon" },
+          { "te": "తాటి ముంజలు", "en": "palm fruit" },
+          { "te": "నీడ", "en": "shade" },
+          { "te": "విసనకర్ర", "en": "hand fan" },
+          { "te": "కుండ", "en": "clay pot" },
+          { "te": "చలివేంద్రం", "en": "free water stand" },
+          { "te": "ఎండాకాలం సెలవులు", "en": "summer holidays" }
+        ],
+        "locationChanges": {
+          "pandu-house": "Mangoes and tamarind dry on the roof; the courtyard is washed twice a day; mats are moved to the roof at night",
+          "school": "Closed for the summer holiday; the ground is silent except for a stray dog; teachers return for admissions in June",
+          "library": "Becomes a cool refuge; the ceiling fan is the main attraction and the reading room is full by noon",
+          "temple": "Priest changes ritual hours to dawn and dusk; chandanam (sandal paste) is offered to cool the deity; sherbets given as prasadam",
+          "banyan-tree": "Busiest place in the village; the stone platform stays shaded and cool; card games and gossip last until dusk",
+          "cheruvu": "Shrinks and shows cracked edges; cattle crowd the remaining water; fish concentrate near the centre; lotus pads wilt",
+          "fields": "Mostly brown and bare; only irrigated plots show green; dust devils cross the empty plots"
+        },
+        "stories": ["haripuram-s-006", "haripuram-s-031", "haripuram-s-064", "haripuram-s-089", "haripuram-s-117", "haripuram-s-142", "haripuram-s-171"],
+        "festivalLinks": ["ugadi", "sri-rama-navami"],
+        "learningThemes": ["Heat, shade and water scarcity words", "Food preservation vocabulary", "Time-of-day words (ఉదయం, మధ్యాహ్నం, సాయంత్రం, రాత్రి)", "Complaint and comfort expressions"]
+      },
+      {
+        "id": "monsoon",
+        "name": "Monsoon",
+        "telugu": "వర్షాకాలం",
+        "teluguLiterary": "వర్ష ఋతువు",
+        "months": ["July", "August", "September", "October"],
+        "teluguMonths": ["ఆషాఢం", "శ్రావణం", "భాద్రపదం", "ఆశ్వయుజం"],
+        "weather": {
+          "description": "Heavy rain from clouds that gather by noon. Roads turn to mud, frogs sing all night, the cheruvu fills and overflows its sluice, and humidity makes everything damp. Occasional cyclone rains in October.",
+          "teluguDescription": "మధ్యాహ్నానికి మబ్బులు కమ్ముకుని జోరుగా వర్షం కురుస్తుంది. బాటలు బురదగా మారతాయి. రాత్రంతా కప్పలు అరుస్తాయి. చెరువు నిండి అలుగు పారుతుంది. అంతా తడిగా ఉంటుంది.",
+          "temperatureRange": "24-32 C",
+          "words": [
+            { "te": "వర్షం", "en": "rain" },
+            { "te": "మబ్బులు", "en": "clouds" },
+            { "te": "ఉరుము", "en": "thunder" },
+            { "te": "మెరుపు", "en": "lightning" },
+            { "te": "బురద", "en": "mud" },
+            { "te": "వరద", "en": "flood" },
+            { "te": "అలుగు", "en": "sluice overflow" },
+            { "te": "తడి", "en": "wet" },
+            { "te": "జల్లు", "en": "shower" },
+            { "te": "చినుకులు", "en": "drizzle / raindrops" }
+          ]
+        },
+        "farmWork": [
+          { "task": "Nursery beds for paddy seedlings", "telugu": "నారుమడి పోయడం" },
+          { "task": "Puddling and levelling flooded fields", "telugu": "దమ్ము చేయడం" },
+          { "task": "Transplanting paddy seedlings by hand", "telugu": "నాట్లు వేయడం" },
+          { "task": "First weeding and fertiliser top-dressing", "telugu": "కలుపు తీయడం, ఎరువు వేయడం" },
+          { "task": "Sowing groundnut and pulses on higher plots", "telugu": "వేరుశనగ, పప్పుధాన్యాల విత్తనాలు" },
+          { "task": "Checking bunds for breaches", "telugu": "గట్లు చూసుకోవడం" }
+        ],
+        "characterActivities": [
+          { "character": "mohan", "activity": "Walks the bunds before dawn and judges the water depth with his shin" },
+          { "character": "subbarao", "activity": "Leads the transplanting women and gives short instructions in rhythm" },
+          { "character": "mangamma", "activity": "Sings transplanting songs with the working women" },
+          { "character": "rathnaiah", "activity": "Sows groundnut on the uplands" },
+          { "character": "lakshmaiah", "activity": "Measures rainfall, advises on seed varieties and fertiliser" },
+          { "character": "ranganath", "activity": "Treats fevers, dengue suspects and water-borne illness; runs a field fever round after rain" },
+          { "character": "kalyani", "activity": "Gives injections and distributes chlorine tablets" },
+          { "character": "srihari", "activity": "College resumes; he travels by bus in the rain and watches transplanting from the road" },
+          { "character": "anjali", "activity": "School term begins; catches paper boats in puddles" },
+          { "character": "lingam", "activity": "Stops pottery because clay won't dry; shapes Ganesha idols indoors" },
+          { "character": "prasad", "activity": "Repairs lines damaged by storms; works through night faults" },
+          { "character": "sridhar", "activity": "Drives the bus through flooded stretches with caution" }
+        ],
+        "vocabulary": [
+          { "te": "నాట్లు", "en": "transplanting" },
+          { "te": "నారు", "en": "seedlings" },
+          { "te": "దుక్కి", "en": "ploughed field" },
+          { "te": "కప్ప", "en": "frog" },
+          { "te": "గొడుగు", "en": "umbrella" },
+          { "te": "చేప", "en": "fish" },
+          { "te": "కాలువ", "en": "canal" },
+          { "te": "వాగు", "en": "stream" },
+          { "te": "తుఫాను", "en": "cyclone / storm" },
+          { "te": "ఇంద్రధనుస్సు", "en": "rainbow" }
+        ],
+        "locationChanges": {
+          "pandu-house": "Roof leaks are patched with plastic; clothes hang indoors; the courtyard becomes slippery with moss; the smell of wet earth is constant",
+          "school": "Reopens in June with new uniforms; the ground floods in a corner; children hold their sandals and splash through",
+          "library": "Humid; the librarian airs books on sunny days; newspapers get damp; quiet corners fill with children sheltering",
+          "temple": "Floors are slippery; lamps struggle in the wind; Vinayaka Chavithi and Dasara bring crowds despite the rain",
+          "banyan-tree": "Shelter during showers; the tea stall moves under a tarpaulin; tree roots drip steadily",
+          "cheruvu": "Fills to the brim, overflows the sluice, lotus pads open wide; children are forbidden to swim; frogs and egrets crowd the banks",
+          "fields": "Turn to flooded mirrors; transplanted rows form green lines; egrets follow the plough"
+        },
+        "stories": ["haripuram-s-012", "haripuram-s-038", "haripuram-s-070", "haripuram-s-095", "haripuram-s-124", "haripuram-s-148", "haripuram-s-177"],
+        "festivalLinks": ["vinayaka-chavithi", "dasara", "deepavali"],
+        "learningThemes": ["Rain and flood vocabulary", "Transplanting verbs", "Action sequences with ముందు, తర్వాత, చివరికి", "Weather prediction proverbs"]
+      },
+      {
+        "id": "winter",
+        "name": "Winter",
+        "telugu": "చలికాలం",
+        "teluguLiterary": "శీత ఋతువు / హేమంతం",
+        "months": ["November", "December", "January", "February"],
+        "teluguMonths": ["కార్తీకం", "మార్గశిరం", "పుష్యం", "మాఘం"],
+        "weather": {
+          "description": "Cool mornings with mist over the fields and cheruvu, light fog until eight, clear sunny afternoons, and cold nights. People wear shawls and light a fire at the banyan in the evening.",
+          "teluguDescription": "ఉదయాలు చల్లగా ఉంటాయి. పొలాలపై, చెరువుపై మంచు కమ్ముతుంది. ఎనిమిది వరకు పొగమంచు. మధ్యాహ్నం ఎండగా ఉంటుంది. రాత్రులు చలి. జనం శాలువాలు కప్పుకుంటారు.",
+          "temperatureRange": "14-28 C",
+          "words": [
+            { "te": "చలి", "en": "cold" },
+            { "te": "మంచు", "en": "mist / dew" },
+            { "te": "పొగమంచు", "en": "fog" },
+            { "te": "శాలువా", "en": "shawl" },
+            { "te": "చలిమంట", "en": "campfire for warmth" },
+            { "te": "వణుకు", "en": "shiver" },
+            { "te": "స్వెటర్", "en": "sweater" },
+            { "te": "కంబళి", "en": "blanket" }
+          ]
+        },
+        "farmWork": [
+          { "task": "Harvest of paddy with sickles and threshing on the threshing floor", "telugu": "వరి కోత, నూర్పిడి" },
+          { "task": "Winnowing grain in the breeze", "telugu": "తూర్పార పట్టడం" },
+          { "task": "Storing grain in gunny sacks and bins", "telugu": "ధాన్యం నిల్వ" },
+          { "task": "Sowing pulses, chillies and vegetables in the residual moisture", "telugu": "పప్పులు, మిరపకాయలు, కూరగాయల విత్తనాలు" },
+          { "task": "Selling crop at the mandal market", "telugu": "మార్కెట్‌లో ధాన్యం అమ్మకం" },
+          { "task": "Preparing straw stacks for cattle fodder", "telugu": "గడ్డివాములు వేయడం" }
+        ],
+        "characterActivities": [
+          { "character": "subbarao", "activity": "Supervises harvest and threshing; checks the weighing at the mandal" },
+          { "character": "mangamma", "activity": "Leads the women reaping in rows; cooks for the working crew" },
+          { "character": "mohan", "activity": "Sells grain; counts sacks twice" },
+          { "character": "lakshmaiah", "activity": "Coordinates with the mandal for procurement centres" },
+          { "character": "srinivas", "activity": "Brings cattle for threshing; checks their health" },
+          { "character": "narayana", "activity": "Sits by the threshing floor and counts bundles; tells harvest memories" },
+          { "character": "mahalakshamma", "activity": "Prepares sankranti foods; stores new rice" },
+          { "character": "lingam", "activity": "Sells pots for pongal; stacks cheruvu clay for the next year" },
+          { "character": "srihari", "activity": "Exam season; studies in the library; helps on the farm at weekends" },
+          { "character": "anjali", "activity": "Annual exams; draws muggulu for Sankranti" },
+          { "character": "umadevi", "activity": "Leads Kartika lamp lighting and Sankranti women's circle" }
+        ],
+        "vocabulary": [
+          { "te": "కోత", "en": "harvest" },
+          { "te": "నూర్పిడి", "en": "threshing" },
+          { "te": "గడ్డి", "en": "straw / hay" },
+          { "te": "ధాన్యం", "en": "paddy grain" },
+          { "te": "బస్తా", "en": "sack" },
+          { "te": "కొడవలి", "en": "sickle" },
+          { "te": "కళ్లం", "en": "threshing floor" },
+          { "te": "తూకం", "en": "weighing" },
+          { "te": "ముగ్గు", "en": "rangoli" },
+          { "te": "పరీక్ష", "en": "exam" }
+        ],
+        "locationChanges": {
+          "pandu-house": "Courtyard filled with sacks of new grain; early morning fires warm the kitchen; shawls hang on the verandah",
+          "school": "Morning assembly in shawls; exams in February; the ground is cold and wet with dew until nine",
+          "library": "Exam students crowd in; warm sunlight hits the reading tables in the afternoon; electric heater rarely used",
+          "temple": "Kartika lamps cover every step; Mukkoti Ekadasi and Sankranti bring crowds before dawn",
+          "banyan-tree": "A small campfire burns in the evening; men wrap in shawls and talk markets and crop prices",
+          "cheruvu": "Mist rises in the early morning; water is clear and cold; lamps are floated on Kartika Pournami; migratory birds arrive",
+          "fields": "Golden paddy ready for harvest; rows of reapers; threshing floors dotted with piles of grain and straw; chilli beds appear after"
+        },
+        "stories": ["haripuram-s-019", "haripuram-s-044", "haripuram-s-078", "haripuram-s-103", "haripuram-s-131", "haripuram-s-160", "haripuram-s-189"],
+        "festivalLinks": ["sankranti", "kartika-masam"],
+        "learningThemes": ["Harvest and grain vocabulary", "Cold-weather clothing words", "Counting and weighing", "Gratitude and thanksgiving expressions"]
+      },
+      {
+        "id": "spring",
+        "name": "Spring",
+        "telugu": "వసంతం",
+        "teluguLiterary": "వసంత ఋతువు",
+        "months": ["February", "March"],
+        "teluguMonths": ["మాఘం", "ఫాల్గుణం"],
+        "weather": {
+          "description": "A brief mild season between winter and summer. New leaves on the neem and mango, koel calls begin, mango blossoms scent the lanes, evenings become pleasant, and the nights are warm but not hot.",
+          "teluguDescription": "చలికాలం, వేసవికాలం మధ్య ఉండే తక్కువ రోజుల ఋతువు. వేప, మామిడి చెట్లు చిగురిస్తాయి. కోయిల కూతలు మొదలవుతాయి. మామిడి పూత వాసన సందులన్నిటా వ్యాపిస్తుంది. సాయంత్రాలు హాయిగా ఉంటాయి.",
+          "temperatureRange": "20-34 C",
+          "words": [
+            { "te": "చిగురు", "en": "new leaf" },
+            { "te": "పూత", "en": "blossom" },
+            { "te": "కోయిల", "en": "koel" },
+            { "te": "తేనె", "en": "honey" },
+            { "te": "సువాసన", "en": "fragrance" },
+            { "te": "చల్లని గాలి", "en": "cool breeze" },
+            { "te": "హాయి", "en": "comfort" },
+            { "te": "పువ్వు", "en": "flower" }
+          ]
+        },
+        "farmWork": [
+          { "task": "Final harvest of late-season crops and vegetables", "telugu": "చివరి పంటల కోత" },
+          { "task": "Mango orchard care: spraying and propping flowering branches", "telugu": "మామిడి తోట సంరక్షణ" },
+          { "task": "Preparing fields for summer by deep ploughing", "telugu": "వేసవి దున్నుడు" },
+          { "task": "Collecting neem flowers and tender leaves for festival use", "telugu": "వేప పువ్వు సేకరణ" },
+          { "task": "Selling vegetables and flowers at the market", "telugu": "కూరగాయలు, పూల అమ్మకం" }
+        ],
+        "characterActivities": [
+          { "character": "venkatasastry", "activity": "Prepares the panchangam reading for Ugadi" },
+          { "character": "umadevi", "activity": "Gathers neem flowers, tamarind, and raw mango for ugadi pachadi" },
+          { "character": "mahalakshamma", "activity": "Cleans the house with turmeric water and ties mango torana" },
+          { "character": "ramaiah", "activity": "Sits on the stone bench and recites spring verses to children" },
+          { "character": "srihari", "activity": "Final exam preparation; hears koels at dawn" },
+          { "character": "anjali", "activity": "Collects fallen mango blossoms and draws them" },
+          { "character": "kiran", "activity": "Climbs trees for raw mangoes and gets scolded" },
+          { "character": "narayana", "activity": "Walks to the cheruvu early to listen to birds" },
+          { "character": "lakshmaiah", "activity": "Surveys mango orchards and advises on flowering" },
+          { "character": "janaki", "activity": "Arranges a small spring poetry reading" }
+        ],
+        "vocabulary": [
+          { "te": "వసంతం", "en": "spring" },
+          { "te": "చిగురు", "en": "sprout / tender leaf" },
+          { "te": "మామిడి పూత", "en": "mango blossom" },
+          { "te": "కోయిల", "en": "koel" },
+          { "te": "వేప పువ్వు", "en": "neem flower" },
+          { "te": "మల్లె", "en": "jasmine" },
+          { "te": "కనకాంబరం", "en": "crossandra flower" },
+          { "te": "తుమ్మెద", "en": "bee" },
+          { "te": "సీతాకోకచిలుక", "en": "butterfly" },
+          { "te": "పచ్చని", "en": "green" }
+        ],
+        "locationChanges": {
+          "pandu-house": "Mango torana at the door; neem tree turns bright green; jasmine on the verandah; courtyard smells of turmeric and fresh dung wash",
+          "school": "Annual day rehearsals; cultural programmes in the afternoon; the neem sheds old leaves and grows new ones",
+          "library": "Spring poetry reading day; a vase of flowers appears on the librarian's desk; fewer students as exams begin",
+          "temple": "Ugadi panchanga sravanam; Rama Navami preparations; kalyanam pandal being built",
+          "banyan-tree": "New red leaves emerge; birds nest; the platform is swept after the winter fire",
+          "cheruvu": "Water slowly drops; lotus buds appear; swallows skim the surface; fishing begins on the far bank",
+          "fields": "Late vegetable patches in flower; wheat-coloured stubble; mango orchards at the edge hum with bees"
+        },
+        "stories": ["haripuram-s-025", "haripuram-s-052", "haripuram-s-085", "haripuram-s-111", "haripuram-s-139", "haripuram-s-166", "haripuram-s-194"],
+        "festivalLinks": ["ugadi", "sri-rama-navami"],
+        "learningThemes": ["Flower, bird and tree names", "Fragrance and taste words", "Poetry and song vocabulary", "Transitions between seasons"]
+      }
+    ]
+  }
