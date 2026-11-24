@@ -3,6 +3,9 @@
 .cache/
 dist/
 build/
+assets/
+data/
+docs/
 *.log
 *.tmp
 *.bak
